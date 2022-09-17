@@ -1,0 +1,287 @@
+@import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap);
+.webtures-app-header-area{
+    background: url(https://www.webtures.com/storage/slides/hOrLKW-0mnv2y-staj-kampi-2019.webp);
+        min-height: 94vh;
+    background-size: cover;
+    position: relative;
+    font-family: 'Quicksand', sans-serif;
+    display: inline-block;
+    width: 100%;
+    background-position: center;
+}
+body.webtures-app-body-home .webtures-app-header-area{
+	min-height: 40vh;
+}
+body{
+	padding:0;
+	margin:0;
+	font-family: 'Quicksand', sans-serif;
+}
+.webtures-app-header-area:before{
+	content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #000000;
+    left: 0;
+    right: 0;
+    opacity: .5;
+}
+.webtures-logo-area{
+    position: relative;
+    z-index: 2;
+    display: block;
+    width: 137px;
+    margin: 0 auto;
+	margin-top: 15px;
+}
+.webtures-logo-area img{
+	    width: 28px;
+    margin-right: 8px;
+    display: inline-block;
+	float:left;
+}
+.webtures-logo-area h1{
+
+    color: #fff;
+    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 700;
+    line-height: 31px;
+    vertical-align: sub;
+    float: left;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+.example-name-area{
+	position: relative;
+    z-index: 2;
+    color: #fff;
+    display: inline-block;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+.webtures-app-footer{
+	width: 100%;
+    background: #f97346;
+    padding: 15px;
+    color: #fff;
+    text-align: center;
+	    box-sizing: border-box;
+		height:6vh;
+}
+.webtures-app-footer p{
+	    margin-bottom: 0;
+    font-size: 16px;
+	margin-top:0;
+}
+.webtures-app-pexels-form-area{
+	    padding: 0;
+    position: relative;
+    z-index: 2;
+    margin-top: 10%;
+}
+.webtures-app-pexels-form-area-container{
+	
+}
+.webtures-app-pexels-form-area-form-box{
+	width: 500px;
+    display: block;
+    margin: 0 auto;
+    box-sizing: border-box;
+    max-width: 100%;
+    background: #fff;
+    border: 1px solid #dfdfe2;
+    padding: 20px 15px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 6px rgb(0 0 0 / 10%);
+    -moz-box-shadow: 0 0 6px rgba(0,0,0,.1);
+    box-shadow: 0 0 6px rgb(0 0 0 / 10%);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.webtures-app-pexels-form-area-form-box form{
+	
+}
+.webtures-app-input-text{
+	    width: 100%;
+    display: inline-block;
+    outline: none !important;
+    padding: 10px;
+    border-color: #ccc !important;
+    border-width: 1px !important;
+    box-shadow: unset;
+    border-style: double;
+    margin-bottom: 15px;
+    color: #000;
+}
+.webtures-app-input-submit{
+	color: #fff!important;
+    background-color: #f15b28;
+    border-radius: 45px;
+    padding-left: 20px!important;
+    padding-right: 20px!important;
+    outline: none !important;
+    border: none !important;
+    font-size: 15px;
+    padding: 11px;
+    min-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+.webtures-app-warning-label{
+	    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background: #ffeb3b;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    padding: 5px;
+    font-weight: 500;
+    line-height: 20px;
+    box-shadow: 1px 1px 7px 5px #eee;
+    box-sizing: border-box;
+}
+.webtures-app-photographers-list-area{
+	    width: 100%;
+    display: inline-block;
+}
+.webtures-app-container{
+	    width: 1100px;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+.webtures-app-photographer-ul{
+	    width: 100%;
+	padding-left:0;
+}
+.webtures-app-photographer-ul li{
+    list-style: none;
+}
+.webtures-app-photographer-ul li a{
+	display: block;
+    box-sizing: border-box;
+    padding: 15px;
+    border: 1px solid #eee;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    background: #f97346;
+	transition:all .5s;
+}
+.webtures-app-photographer-ul li a:hover{
+	border: 1px solid #f97346;
+	background:#fff;
+	color:#000;
+}
+.webtures-app-page-title{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: 15px;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.photo-card{
+position: relative;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 15px;
+	    border-radius: 6px;
+		text-decoration:none !important;
+		color:#fff !important;
+}
+.photo-card:before{
+	    content: '';
+    position: absolute;
+    background: #000;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .3;
+    z-index: 1;
+    border-radius: 10px;
+	transition:all .5s;
+}
+.photo-card:hover:before{
+	opacity: .5;
+}
+.photo-card h3{
+	margin-top: 10rem;
+    font-size: 19px;
+    line-height: 22px;
+    height: 44px;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #fff;
+    font-weight: 600;
+	position:relative;
+	z-index:2;
+}
+ul.images-size{
+	padding-left: 0;
+    display: inline-block;
+    width: 100%;
+}
+ul.images-size li{
+	list-style: none;
+    float: left;
+    width: 25%;
+    text-align: center;
+    background: transparent;
+    display: inline-block;
+    box-sizing: border-box;
+	padding:7px;
+}
+ul.images-size li a{
+	display: block;
+    background: #f97346;
+    color: #fff !important;
+    font-size: 12px;
+    padding: 6px;
+    border-radius: 4px;
+    text-decoration: none !important;
+}
+.webtures-app-btn{
+	    display: block;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fff !important;
+}
+@media screen and (max-width: 768px) {
+.webtures-app-photographer-ul {
+    width: 100%;
+    padding-left: 0;
+    margin: 0;
+}
+.photo-col {
+    width: 100%;
+    padding-left: 15px;
+    margin: 0;
+    flex-basis: unset;
+    padding-right: 15px;
+}
+.webtures-app-photographer-ul li {
+    list-style: none;
+    width: 100%;
+    display: inline-block;
+    flex-basis: unset;
+}
+}
