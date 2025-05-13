@@ -17,8 +17,7 @@
 	<body <?php if(isset($body_class)){ echo 'class="'.$body_class.'"'; } ?>>
 		<div class="webtures-app-header-area">
 			<a class="webtures-logo-area" href="{{ url('')}}">
-				<img src="https://www.webtures.com/assets/images/icons/webtures-180.png">
-				<h1>WEBTURES</h1>
+				<h1>PEXELS API</h1>
 			</a>
 			<div class="example-name-area">
 				<h2>{{$pageTitle}}</h2>

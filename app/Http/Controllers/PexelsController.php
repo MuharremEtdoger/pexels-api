@@ -29,7 +29,7 @@ class PexelsController extends Controller
 			return redirect(route('pexels-guncelle')); 
 		}else{
 			$photographers = DB::select('select * from photographers');
-			View::share('pageTitle','Webtures App - Pexels API');
+			View::share('pageTitle','App - Pexels API');
 			View::share('body_class','webtures-app-body-home');
 			View::share('photographers',$photographers);
 			return view('home');	
@@ -115,13 +115,13 @@ class PexelsController extends Controller
 			          $result=self::pexelsCurl($url);
 					}
 				}else{
-					View::share('pageTitle','Webtures App - Pexels API');
+					View::share('pageTitle','App - Pexels API');
 					View::share('showForm',1);
 					View::share('showWarningText','Görsel Bulunamadı veya 100\'den az bulundu');
 					return view('pexelsform');
 				}
 			}else{
-					View::share('pageTitle','Webtures App - Pexels API');
+					View::share('pageTitle','App - Pexels API');
 					View::share('showForm',1);
 					View::share('showWarningText','Görsel Bulunamadı veya 100\'den az bulundu');
 					return view('pexelsform');
@@ -177,7 +177,7 @@ class PexelsController extends Controller
 					}
 				}
 				if($import_error){
-					View::share('pageTitle','Webtures App - Pexels API');
+					View::share('pageTitle','App - Pexels API');
 					View::share('showForm',1);
 					View::share('showWarningText','Veritabanına eklenirken hata oluştu');
 					return view('pexelsform');
@@ -185,24 +185,24 @@ class PexelsController extends Controller
 					return redirect(route('pexels-home'));
 				}
 			}else{
-				View::share('pageTitle','Webtures App - Pexels API');
+				View::share('pageTitle','App - Pexels API');
 				View::share('showForm',1);
 				View::share('showWarningText','Görsel Bulunamadı veya 100\'den az bulundu');
 				return view('pexelsform');				
 			}
 		}else if($process_state==2 && $all_request['s']){
-			View::share('pageTitle','Webtures App - Pexels API');
+			View::share('pageTitle','App - Pexels API');
 			View::share('showForm',1);
 			View::share('showWarningText','Database üzerindeki kayıtları temizleyip tekrar istek gönderebilirsiniz');
 			return view('pexelsform');			
 		}else{
-			View::share('pageTitle','Webtures App - Pexels API');
+			View::share('pageTitle','App - Pexels API');
 			View::share('showForm',1);
 			return view('pexelsform');			
 		}
     }
     public function pexelsUpdateFront(Request $request){
-		View::share('pageTitle','Webtures App - Pexels API');
+		View::share('pageTitle','App - Pexels API');
 		View::share('showForm',1);
         return view('pexelsform'); 
     }
